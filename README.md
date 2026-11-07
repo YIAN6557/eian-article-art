@@ -80,10 +80,12 @@ The rules the AI follows (in `SKILL.md`) are written in Chinese. Agents read the
 ```
 SKILL.md                      instructions for the AI: style rules, steps, checklist
 references/pick_spots.md      how to pick image spots in a whole article
+references/layout.md          text layout rules and HTML fixes
+references/pitfalls.md        known drawing problems and how to avoid them
 references/publish_drafts.md  (optional) putting the result into X Articles or WeChat drafts
 templates/                    HTML templates and prompt templates
-tools/codex_image2.sh         lets non-Codex agents draw with your local Codex
-tools/shot.sh                 renders an HTML file to PNG
+scripts/codex_image2.sh       lets non-Codex agents draw with your local Codex
+scripts/shot.sh               renders an HTML file to PNG
 assets/refs/                  the figure reference image
 assets/logos/                 Claude, Codex and Seedance icons
 examples/                     approved examples: prompts, raw images, HTML, final images

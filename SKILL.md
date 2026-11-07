@@ -35,19 +35,19 @@ description: 黑板粉笔风的文章封面图和配图：纯黑底 + 白色粉�
 1. **读完全文，挑位置**：按 `references/pick_spots.md` 算张数、挑位置，列出清单表（放在哪段后面、讲什么、为什么要图、画面、图上的字）。
 2. **建文件夹**：在文章旁边建 `<文章名>_配图/`，里面放 `prompts/ raw/ logos/ final/`。
 3. **先停一次**：把清单表和**一张样图**（一般是封面）一起给用户看。用户认可后，再一口气画完其余的。用户说要改的照改，没说的不要改。
-4. **写提示词**：从 `templates/prompt_cover.txt` 或 `templates/prompt_fig.txt` 改，存到 `prompts/`。写清楚数量、位置百分比和留给字的空白。人物动作写成身体怎么摆，不写情绪词。`examples/prompts/` 有 7 份认可过的完整例子。
+4. **写提示词**：先看 `references/pitfalls.md`。从 `templates/prompt_cover.txt` 或 `templates/prompt_fig.txt` 改，存到 `prompts/`。写清楚数量、位置百分比和留给字的空白。人物动作写成身体怎么摆，不写情绪词。`examples/prompts/` 有 7 份认可过的完整例子。
 5. **画图**（一次只画一张，两张参考图都带上）：
    - **你是 Codex**：用你自己的生图工具，把两张参考图的路径传给它（`referenced_image_paths`，图 1 在前、图 2 在后），提示词用 `prompts/` 里的全文。画好后，工具会告诉你图存在哪里（`~/.codex/generated_images/...`），把它 `cp` 到 `raw/<名字>.png`。
    - **你不是 Codex**（比如 Claude Code）：用脚本调用本机的 Codex 来画，在 `<文章名>_配图/` 里运行（配图把最后一个参考图换成 `fig2_cost_a.png`）：
      ```bash
-     bash <skill>/tools/codex_image2.sh prompts/x.txt raw/x.png <skill>/assets/refs/figure_ref.png <skill>/examples/raw/cover_slot_bw_a.png
+     bash <skill>/scripts/codex_image2.sh prompts/x.txt raw/x.png <skill>/assets/refs/figure_ref.png <skill>/examples/raw/cover_slot_bw_a.png
      ```
-6. **加字**：把 `templates/cover.html` 或 `fig.html` 拷到 `<文章名>_配图/`，用到的图标拷到 `logos/`，改图和字（排字规矩见下面），再截图：
+6. **加字**：把 `templates/cover.html` 或 `fig.html` 拷到 `<文章名>_配图/`，用到的图标拷到 `logos/`，改图和字（先看 `references/layout.md`），再截图：
    ```bash
-   bash <skill>/tools/shot.sh fig1.html final/fig1.png
+   bash <skill>/scripts/shot.sh fig1.html final/fig1.png
    ```
    截图要用 Chrome。**Chrome 在 Codex 沙盒里打不开**，脚本会报 `FAILED`。Codex 这时要申请在沙盒外运行同一条命令（提权），并跟用户说一句：这一步只是用 Chrome 把网页截成图片。不能申请时（比如 `codex exec`），写一个导出脚本把全部截图命令放进去，告诉用户在沙盒外跑这一条。
-7. **检查**（每张都要截好图后打开看，不合格就重画或改 HTML）：
+7. **检查**（每张都要截好图后打开看，不合格就重画或改 HTML；怎么改看 `references/pitfalls.md` 和 `references/layout.md`）：
    - 画面没字母、没乱码、物件数量对、没切边。
    - 小人是圆头没脸，和参考图是同一个人，不僵、不像外星人。
    - 物件也是乱线画的，有明暗。不能像尺子画的细线框。
@@ -64,17 +64,11 @@ description: 黑板粉笔风的文章封面图和配图：纯黑底 + 白色粉�
 
 只要一张图（不是整篇文章）时，跳过第 1 步，直接从第 4 步开始，仍然先给用户看这一张。
 
-## 排字
-
-- 认可过的模板都在 `examples/`：中文 7 个、英文 7 个（`*_en.html`）；`examples/article2/` 是第二篇整篇配图，有配图清单、5 个模块的结构图、7 步图的排字。照抄比从头写好。
-- **一张图有 4 个以上小图**（比如 5 个模块、7 个步骤）时：每个标签尽量只写一行，照原文缩短到 6 个字以内（例：“写成自然语言步骤”→“写成步骤”）；标签放在自己那个小图的正下方，先量出每个小图在画里的中心 x 再定位置；前一句已经说了总数（如“一共7步”）就不加总标题，把空间留给画。每项一定要写几样东西时（比如名字 + 必需/可选 + 比喻），可以多行，但每项行数一样（见 `examples/article2/fig1-structure.html`）。
-- 标签不要被硬拆成两行、第二行又变成小字（看起来像解释，其实是半句话）。
-
 ## 封面规矩
 
 - 左边一个小人 + 一个大物件，用一个比喻讲清文章的核心。例：讲“少抽卡”就画小人拉老虎机，胶片堆一地。
 - 封面的画用 3:2（`templates/cover.html` 按 3:2 放图）。画成更宽的比例时，先从左边裁成 3:2 再放进去。
-- 画要大：撑满左半边的高度，和 `cover_bw3.png` 一样大。画小了不用重画，在 HTML 里把 `#art` 放大、往上挪（例：width 1300、height 867、top -70）。
+- 画要大：撑满左半边的高度，和 `cover_bw3.png` 一样大。画小了不用重画，在 HTML 里放大（见 `references/layout.md`）。
 - 图不能太靠边：画的最左边离画布左边不小于 72 像素（`#art` 放大后要重新看）。
 - 右边从上到下：一排图标（只放文章讲到的工具，没讲到就不放）→ 一行大标题 → 一行副标题。
 - 标题要放得下：中文字号 × 字数不超过 1200。默认 92 号最多 13 个字，再长就缩小字号（最小 76），还放不下就分两行。字少又没有图标时可以加大到 110。英文看 `examples/cover_en.html`。
@@ -86,12 +80,3 @@ description: 黑板粉笔风的文章封面图和配图：纯黑底 + 白色粉�
 - macOS：字体 Hannotate SC 是 Mac 自带的（第一次用要在「字体册」里点下载）。
 - Google Chrome（也可以用 Chromium 或 Edge），截图用。
 - 画图：Codex 自己就能画。别的 agent 要本机装好 Codex（`codex` 命令或 ChatGPT 桌面版），`codex_image2.sh` 会自动找。
-
-## 踩过的坑
-
-- 人物总画不好时，不要加更多文字描述，换一张更好的小人当参考图再画。《反应要有先后》那张试了三次，用四人图当参考才对。
-- 构图要落到黄金比例线上时，AI 经常放不准。可以在 HTML 里用 CSS 把小人挪过去，不用重画（见 `examples/fig4.html`）。
-- 图画得偏上或偏下，改 `.a` 的 `top`，不用重画（见 `examples/fig2.html`）。
-- 方块、卡片这种干净的物件最容易跑风格，变成细直线框。提示词里要写明：drawn with the same tangled scribble lines, with light and shadow, not a thin wireframe。
-- 提示词里一定要写 “Do not copy ...”，不然参考图里的东西会被带进新图。
-- 图上的字照文章原话缩短，不要自己编新说法；英文图也是，用文章里的英文原词。

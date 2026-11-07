@@ -78,10 +78,12 @@ ln -s ~/.agents/skills/eian-article-art ~/.claude/skills/eian-article-art
 ```
 SKILL.md                 给 AI 看的说明：风格规矩、流程、检查清单
 references/pick_spots.md 怎么从整篇文章里挑配图位置
+references/layout.md     排字规矩，以及怎么用 HTML 改位置
+references/pitfalls.md   画图踩过的坑和避开的方法
 references/publish_drafts.md  （可选）放进 X 文章、公众号草稿的方法
 templates/               封面和配图的 HTML 模板、提示词模板
-tools/codex_image2.sh    非 Codex 的 agent 用它调用 Codex 画图
-tools/shot.sh            把 HTML 截成 PNG
+scripts/codex_image2.sh  非 Codex 的 agent 用它调用 Codex 画图
+scripts/shot.sh          把 HTML 截成 PNG
 assets/refs/             小人参考图
 assets/logos/            Claude、Codex、Seedance 图标
 examples/                认可过的完整例子：提示词、原图、HTML、成品
