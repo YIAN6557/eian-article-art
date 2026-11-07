@@ -1,0 +1,10 @@
+Landscape image, 3:2. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+Attached image 1 is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, with dense bright lines on lit sides and thin sparse lines in shadow, plus a few stray lines flying off. The little man in it is the way the human figure must be drawn: smooth, simple, no face detail, no clothing detail. Do not copy its objects.
+
+Attached image 2 is the LINE TEXTURE to match exactly: loose, visible, tangled white chalk scribble strokes, dense on lit sides, sparse in shadow, many stray lines flying off the outlines. Not a smooth felt or fur texture, no soft white halo or glow around the edges. Copy only its line texture, none of its objects.
+
+The picture: [One little man doing one physical action with one big object that stands for the main idea of the article. Say his pose in plain physical words. Say the details that must stay readable.]
+
+Make the drawing big: it fills the left half of the frame (from 3% to 50% across) and almost the full height (from 4% to 96% top to bottom). The right half must stay perfectly black. Do not cut anything off at the frame edge except stray lines.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no logos, no border, no extra characters.

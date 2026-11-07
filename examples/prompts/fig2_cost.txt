@@ -1,0 +1,14 @@
+Landscape image, 16:9. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+The attached image is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, dense bright lines on lit sides, thin sparse lines in shadow, a few stray lines flying off. The little man in it is how every human figure must be drawn: smooth, simple, round head, no face, no clothing. Do not copy the paintbrush, film strip, arrows or speech bubble unless the content below asks for them.
+
+Content:
+- Three objects stand in a row from left to right on one baseline, evenly spaced, each sitting in the middle of its own third of the image:
+  1. Left: a single sheet of paper with a few scribbled wavy lines of writing on it (no real letters), with a pencil beside it. Nothing under it.
+  2. Middle: a picture in a simple frame showing a small mountain. Nothing under it.
+  3. Right: a curling strip of movie film with clearly visible square sprocket holes along both edges, sitting on top of a tall, heavy pile of round coins (plain blank coins with no marks).
+- One small scribble arrow between object 1 and object 2, and one between object 2 and object 3, both pointing right.
+- Keep the top 22 percent of the image and the bottom 24 percent completely black and empty.
+
+Do not cut anything off at the frame edge except stray lines. Keep at least 6 percent empty black margin on all sides.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no symbols, no logos, no border, no extra characters.

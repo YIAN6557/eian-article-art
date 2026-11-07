@@ -1,0 +1,11 @@
+Landscape image, 16:9. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+The attached image is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, dense bright lines on lit sides, thin sparse lines in shadow, a few stray lines flying off. The little man in it is how every human figure must be drawn: smooth, simple, round head, no face, no clothing. Do not copy the paintbrush, film strip, arrows or speech bubble unless the content below asks for them.
+
+Content:
+- A large wide rectangular picture frame drawn in scribble lines, in a 16:9 shape, centered in the image. Its left edge is at 14 percent of the image width and its right edge is at 86 percent. Its top edge is at 8 percent of the image height and its bottom edge is at 76 percent.
+- Inside the frame: one little man, shown from the waist up, large, facing right and looking toward the right. The exact center of his head is at 41 percent of the image width, clearly left of the frame center. The right part of the frame in front of him is empty black, with only a faint low scribble horizon line.
+- Below the frame the bottom 24 percent of the image stays completely black and empty.
+
+Do not cut anything off at the frame edge except stray lines. Keep at least 6 percent empty black margin on all sides.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no symbols, no logos, no border, no extra characters.

@@ -1,0 +1,16 @@
+Landscape image, 16:9. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+The attached image is the DRAWING STYLE and the CHARACTER DESIGN to copy exactly: the same plump smooth little men with a big perfectly round head, no face, no nose, no eyes, no clothing, drawn in fine white scribble lines on pure black. Do not copy the easel, magnifying glass, scroll, stamp or table.
+
+Content:
+- The image is split into two equal side-by-side scenes by a thin vertical scribble line down the center.
+- Left scene: three identical little men in a row, all stiff, all raising the same arm straight up in exactly the same pose at exactly the same height, like three copies of one figure.
+- Right scene: three little men in a row, each with a different natural pose, like real people reacting one after another:
+  first man on the left, already reacting: leaning forward with one arm fully raised and waving.
+  second man in the middle, starting to react: weight on one leg, one hand rising to chest height, body turning toward the first man.
+  third man on the right, has not reacted yet: relaxed, one hand on his hip, his round head just starting to turn toward the others.
+- All six men are the same size, stand on the same baseline, and each has clear space around him.
+- The men stand between 12 percent and 68 percent of the image height. Keep the bottom 28 percent of the image completely black and empty.
+
+Do not cut anything off at the frame edge except stray lines. Keep at least 6 percent empty black margin on left and right.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no symbols, no logos, no border, no extra characters.

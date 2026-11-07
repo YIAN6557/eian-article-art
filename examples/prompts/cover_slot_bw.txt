@@ -1,0 +1,15 @@
+Landscape image, 3:2. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+Two images are attached.
+Image 1 is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, with dense bright lines on lit sides and thin sparse lines in shadow, plus a few stray lines flying off. The little man in image 1 is the way the human figure must be drawn: smooth, simple, no face detail, no clothing detail.
+Image 2 is the CONTENT and the layout to copy: a small man pulling down the side lever of a huge slot machine with both hands, leaning his whole body back, feet digging in, and a long film strip pouring out of the machine's tray and piling up messily around his feet.
+
+Redraw the content of image 2 entirely in the style of image 1. Remove all color: only white lines on black. Do not copy the cartoon outlines or flat fills of image 2.
+
+Keep these things readable:
+- The slot machine is large and tall with a rounded dome top, and it stands on the left. Its window has exactly three reels, each showing one small simple movie frame: a mountain, a little house, and a blurred smear of fast scribble lines for the third, which is still spinning.
+- The lever is on the machine's right side, with a round knob, and the man grips it.
+- The film strip has clearly visible square sprocket holes along both edges, so it reads as film at a glance. Some frames are crumpled.
+
+Place everything in the left half of the frame. The right half must stay perfectly black. Do not cut anything off at the frame edge except stray lines.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no logos, no border, no extra characters.

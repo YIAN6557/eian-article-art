@@ -1,0 +1,14 @@
+Landscape image, 16:9. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+The attached image is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, dense bright lines on lit sides, thin sparse lines in shadow, a few stray lines flying off. The little man in it is how every human figure must be drawn: smooth, simple, round head, no face, no clothing. Do not copy the paintbrush, film strip, arrows or speech bubble unless the content below asks for them.
+
+Content:
+- Four little men in a row from left to right, evenly spaced, same size, all on one baseline, each in the center of his own quarter of the image:
+  1. Sitting on a stool at an easel, busy painting a blank canvas with a brush. This one is slightly larger than the others.
+  2. Bending forward looking through a big magnifying glass held in one hand.
+  3. Standing and holding up a long paper scroll that hangs down to the ground, with a row of small empty check boxes on it (no letters), one hand holding a pen.
+  4. Standing upright with one arm raised, about to bring a big rubber stamp down on a sheet of paper resting on a small table.
+- Keep the bottom 28 percent and the top 8 percent of the image completely black and empty.
+
+Do not cut anything off at the frame edge except stray lines. Keep at least 6 percent empty black margin on all sides.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no symbols, no logos, no border, no extra characters.

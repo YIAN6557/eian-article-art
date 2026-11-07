@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* 封面 2000x800。左：Codex 画的黑底白线图；右：一排图标 + 大标题 + 副标题。
+   要改的只有：ART 的路径、图标、两行字。画的最左边离画布左边不小于 72 像素，太靠边不好看。 */
+*{margin:0;padding:0}html,body{width:2000px;height:800px;background:#000;overflow:hidden}
+#art{position:absolute;left:72px;top:40px;width:1080px;height:720px;background:url(raw/ART.png) 0 0/100% 100%;mix-blend-mode:screen}
+#right{position:absolute;left:660px;top:0;width:1310px;height:800px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#row{display:flex;gap:96px;align-items:center;margin-bottom:64px}
+.ic{width:170px;height:170px;display:block;object-fit:contain}
+h1{font:500 92px "Hannotate SC";color:#fff;letter-spacing:1px;white-space:nowrap}
+h2{font:500 50px "Hannotate SC";color:#fff;margin-top:30px;letter-spacing:1px;white-space:nowrap}
+</style></head><body><div id="art"></div><div id="right">
+<!-- 文章讲到具体工具才放这一排；没有就整行删掉。标题字号 × 字数不超过 1200 -->
+<div id="row"><img class="ic" src="logos/ICON1.png"><img class="ic" src="logos/ICON2.png"></div>
+<h1>大标题，一行</h1><h2>副标题，一行，说清这篇讲什么</h2></div></body></html>

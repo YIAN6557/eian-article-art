@@ -1,0 +1,14 @@
+Landscape image, 16:9. Pure solid black background (#000000) everywhere, with nothing else in the scene.
+
+The attached image is the DRAWING STYLE to copy exactly: fine white chalk-like scribble lines on pure black, tangled loose strokes that build up form and shading, dense bright lines on lit sides, thin sparse lines in shadow, a few stray lines flying off. The little man in it is how the human figure must be drawn: smooth, simple, round head, no face, no clothing. Do not draw the slot machine or the film pile.
+
+Content, from left to right, all on one horizontal composition:
+- Left third: the same little man standing relaxed, one hand raised as if talking, turned to the right. A large empty rounded speech bubble drawn in scribble lines floats just to the right of his head, its tail pointing at his head. The bubble is empty inside: only black.
+- Center: empty black area, a clear circle of about one quarter of the image height with nothing in it and no outline.
+- A single thick scribble arrow goes from the speech bubble to that empty center area.
+- From the empty center area, two scribble arrows branch out to the right: one going up-right, one going down-right.
+- Upper right: a large paintbrush lying diagonally, drawn in scribble lines, with a small blot of paint at its tip.
+- Lower right: a short curling strip of movie film with clearly visible square sprocket holes along both edges and two blank frames.
+
+Leave clear black space above the paintbrush and below the film strip. Do not cut anything off at the frame edge except stray lines. Keep at least 6 percent empty black margin on all sides.
+No color, no gray fill, no gradient glow, no text, no letters, no numbers, no logos, no border, no extra characters.
